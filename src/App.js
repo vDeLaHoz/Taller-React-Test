@@ -1,5 +1,4 @@
 import './App.css';
-import logo from './logo.png'
 import { useState } from 'react'
 import React from "react"
 import { Formulario } from './components/form';
@@ -14,7 +13,7 @@ const App = ({categorias = []}) => {
     const obtenerDatos = async () =>{
         try{
             const db = firebase.firestore()
-            const data = await db.collection('pokemones').get()
+            const data = await db.collection('datos').get()
             const array = data.docs.map(item =>(
                 {
                     id:item.id, ...item.data()

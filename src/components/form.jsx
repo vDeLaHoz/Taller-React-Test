@@ -69,3 +69,5 @@ export const Formulario =({setCategoriasBusqueda})=>{
     );
 }
 
+export default Formulario;
+
