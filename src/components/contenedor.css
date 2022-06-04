@@ -1,5 +1,5 @@
 .contenedor{
-    background-color: #EF5350;
+    background-color: aqua;
     border-radius: 12px;
     width: 250px;
     height: 293px;
@@ -23,7 +23,7 @@ img{
 
 .canecatbn:hover{
     background-color: white;
-    color: #EF5350;
+    color: blue;
     transition: 0.5s;
 }
 
