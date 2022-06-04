@@ -2,8 +2,8 @@ import './App.css';
 import logo from './logo.png'
 import { useState } from 'react'
 import React from "react"
-import { Formulario } from './Componentes/form';
-import { Contenedor } from './Componentes/contenedor'
+import { Formulario } from './components/form';
+import { Contenedor } from './components/contenedor'
 import {firebase} from './firebase'
 
 const App = ({categorias = []}) => {

@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "block-stream": "^0.0.9",
+    "debug": "^4.3.4",
     "firebase": "^8.7.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
